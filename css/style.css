@@ -1,0 +1,156 @@
+*{
+    margin: 0 !important;
+}
+body { 
+    overflow: hidden !important;
+    margin: 0; 
+    padding: 0;
+ }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+.profilepic{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.268);
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.bg-body-tertiary{
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+.appname{
+    font-size: 1.1rem;
+}
+.container{
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+.menubar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    padding: 30px 10px;
+    bottom: 0;
+    gap: 10px;
+}
+.menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* backdrop-filter: blur(2px); */
+    color: white;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.item img{
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
+}
+
+.search-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   top: 40px;
+   z-index: 11;
+  }
+  .searchcon{
+    width: 93%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .searchbar{
+    width: 90%;
+    padding: 10px 8px 13px 15px;
+    border: none;
+    border-radius: 50px;
+  }
+  .sharingan{
+    width: 10%;
+    mix-blend-mode: inherit;
+    padding: 5px;
+  position: relative;
+  }
+  .btns-search{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+    position: relative;
+    right: 8px;
+  }
+  input::placeholder {
+    text-align: center;
+}
+a.mapboxgl-ctrl-logo{
+    display: none !important;
+}
+.btn-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+width: 80%;
+border-radius: 0px !important;
+background-color: white;
+background-size: 100%;
+background-position: center;
+border-color: white;
+color: black;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mapboxgl-ctrl-top-right{ 
+top: auto;
+bottom: 100px !important;
+left: 20px;
+right: auto;
+} 
+.mapboxgl-ctrl-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: transparent;
+}
+.mapboxgl-ctrl-group button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px !important;
+    height: 40px;
+    width: 40px;
+}
+.mapboxgl-ctrl button:not(:disabled):hover {
+    background-color: rgba(255, 255, 255, 0.674);
+}
+.elephant{
+    width: 25px;
+}
+
+.items2{
+    position: absolute;
+    bottom: 100px;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
